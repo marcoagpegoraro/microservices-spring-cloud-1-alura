@@ -4,6 +4,6 @@ spring:
     username: postgres
     password: postgres
   #drop n create table again, good for testing, comment this in production
-#  jpa:
-#    hibernate:
-#      ddl-auto: create
+  jpa:
+    hibernate:
+      ddl-auto: update

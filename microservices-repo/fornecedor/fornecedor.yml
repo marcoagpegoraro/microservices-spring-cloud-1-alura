@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
-    password: postgres
+    password: docker
   #drop n create table again, good for testing, comment this in production
 #  jpa:
 #    hibernate:
